@@ -1,0 +1,16 @@
+Readme:
+Project Title: Execute a script which automatically logs into the ssh server and execute a script there which shows the CPU percentage and RAM usage.
+
+Getting Started: 1) Execute the script ssh.py on the terminal using 'python ssh.sy'
+				 2)	In the script mention the host, username, and the password of the remote node you are logging into
+				 3) Mention another script file called Memory.py into the script ssh.sy where we have to copy this onto the node. Specify the local path and remote path.
+				 4)Once you execute the script'python ssh.sy' , it outputs the CPU usage , ram usage of the node.
+
+Installation : Install the python libraries 1) os 2) psutil 3)paramiko using the 					command 'pip install os'
+				Make sure that you have installed python 2 package in the system. 
+
+Testing		 : Havent tested completely due to absence of ssh server.
+
+Acnowledgemts : Inbuilt libaries of 'paramiko' for ssh connection and 'psutil'
+
+Name : Harish Holenarsipura Viswanatha
